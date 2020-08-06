@@ -1,15 +1,24 @@
 {
-  "name": "learn-starter",
+  "name": "designerxio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next -p 7777",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@theme-ui/typography": "^0.3.0",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "@types/theme-ui": "^0.3.6",
     "next": "9.3.5",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "theme-ui": "^0.3.1",
+    "typeface-barlow": "^0.0.71",
+    "typeface-fugaz-one": "^0.0.72",
+    "typescript": "^3.9.7",
+    "typography-theme-sutro": "^0.16.19"
   }
 }
